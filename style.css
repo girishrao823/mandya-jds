@@ -67,7 +67,7 @@ ul { list-style: none; }
   border: 3px solid var(--jds-yellow);
   overflow: hidden;
 }
-.logo-circle img { width: 100%; height: 100%; object-fit: contain; }
+.logo-circle img { width: 100%; height: 100%; object-fit: cover; object-position: top center; }
 .logo-text h1 { font-size: 20px; color: var(--jds-green-dark); font-weight: 700; }
 .logo-text p { font-size: 13px; color: var(--text-muted); font-style: italic; }
 
