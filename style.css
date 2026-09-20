@@ -241,6 +241,9 @@ ul { list-style: none; }
   box-shadow: var(--shadow);
   transition: transform 0.2s;
   border-top: 4px solid var(--jds-green);
+  display: block;
+  color: inherit;
+  cursor: pointer;
 }
 .mla-card:hover { transform: translateY(-6px); }
 .mla-photo {
