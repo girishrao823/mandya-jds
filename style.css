@@ -142,7 +142,14 @@ ul { list-style: none; }
   background: #0c3a18;
   line-height: 0;
 }
-.team-banner img {
+.team-banner-logo {
+  width: 100%;
+  background: #fff;
+  object-fit: contain;
+  max-height: 260px;
+  padding: 16px 0;
+}
+.team-banner img:not(.team-banner-logo) {
   width: 100%;
   height: auto;
   max-height: 720px;
